@@ -11,7 +11,7 @@ Native Bluetooth LE and Android companion device support.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :type => 'BSD-3-Clause', :file => '../LICENSE' }
-  s.author           = { 'Bluetooth Companion' => 'maintainer@example.com' }
+  s.author           = { 'KAAE' => 'jkaae93@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
