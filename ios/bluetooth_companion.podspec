@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 Native Bluetooth LE and Android companion device support.
                        DESC
   s.homepage         = 'http://example.com'
-  s.license          = { :type => 'Not specified' }
+  s.license          = { :type => 'BSD-3-Clause', :file => '../LICENSE' }
   s.author           = { 'Bluetooth Companion' => 'maintainer@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'

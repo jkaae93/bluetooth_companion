@@ -139,3 +139,7 @@ Both filters are optional and, when supplied together, both must match. The name
 ### Callback event recording (experimental)
 
 Call `configureRecording(notifications: true, advertisements: false)` to save notification callbacks while the native plugin is active. Enable `advertisements` to also save matching scan results. Query with `queryRecords(afterId: 0, limit: 100)` and use the final ID for subsequent pages; `clearRecords()` deletes all records. Values are raw bytes and `receivedAt` is Unix milliseconds. Android saves scan record bytes; iOS exposes parsed advertisements rather than raw packets, so its advertisement value is null. Motion is currently `unknown`. Recording settings are in memory and must be enabled again after plugin recreation. This is not background collection: Flutter engine termination, disconnects and OS restrictions can prevent records from being captured.
+
+## License
+
+BSD 3-Clause. See [LICENSE](LICENSE).
