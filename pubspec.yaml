@@ -1,0 +1,21 @@
+name: bluetooth_companion
+description: Native Android and iOS BLE central and Android companion device plugin.
+version: 0.0.1
+environment:
+  sdk: ^3.11.4
+  flutter: '>=3.41.6'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.bluetoothcompanion.bluetooth_companion
+        pluginClass: BluetoothCompanionPlugin
+      ios:
+        pluginClass: BluetoothCompanionPlugin
